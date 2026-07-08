@@ -20,5 +20,5 @@ class LoginPage:
         
     def login(self, username, password):
         self.enter_username(username)
-        self.enter_username(password)
+        self.enter_password(password)
         self.click_login()
